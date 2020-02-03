@@ -1,4 +1,4 @@
-# biking-man
+# Money-Man
 money man with html &amp; css3
 
 # Demo
