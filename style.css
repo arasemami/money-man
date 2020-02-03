@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+}
+
+#circle {
+
+    animation: wheel 10s infinite linear alternate;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+#dollar {
+    animation: money 1s infinite ease-in-out alternate;
+}
+
+
+
+@keyframes wheel {
+    from {
+        transform: rotate(0);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes money {
+    from {
+        transform: rotateX(0) rotateZ(0);
+    }
+
+    to {
+        transform: rotateX(15deg) rotateZ(0);
+    }
+}
